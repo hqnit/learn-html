@@ -1,10 +1,246 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vivi">
   <head>
-    <title>Học HTML</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Learn HTMLHTML</title>
   </head>
   <body>
-    <h1>HTMLHTML</h1>
-    <p>Tạo file "index.html"</p>
+    <header class="header">
+      <h1>LEARN HTML</h1>
+      <p>Tập trung vào các phần tử.</p>
+    </header>
+    <main class="main">
+      <h2>I-Nhóm các phần tử theo chức năng.</h2>
+      <section>
+        <h3>1.Cấu trúc tài liệu</h3>
+        <ul class="list">
+          <li>
+            <span class="bor">&lt; !DOCTYPE html &gt;</span>: Xác định loại tài liệu html 5.
+          </li>
+          <li>
+            <span class="bor">&lt; html &gt;</span>: Bao quanh toàn bộ nội dung
+            HTML, xác định đó là tài liệu HTML.
+          </li>
+          <li>
+            <span class="bor">&lt; head &gt;</span>: Chứa thông tin meta, title
+            và liên kết tài nguyên như CSS, JavaScript.
+          </li>
+          <li>
+            <span class="bor">&lt; body &gt;</span>: Chứa nội dung chính sẽ hiển
+            thị trên trình duyệt.
+          </li>
+          <li>
+            <span class="bor">&lt; header &gt;</span>: Đại diện cho phần đầu của
+            tài liệu hoặc một phần nội dung (như tiêu đề chính).
+          </li>
+          <li>
+            <span class="bor">&lt; nav &gt;</span>: Dùng để chứa liên kết dẫn
+            hướng (menu).
+          </li>
+          <li>
+            <span class="bor">&lt; session &gt;</span>: Phân chia nội dung thành
+            từng phần chủ đề.
+          </li>
+          <li>
+            <span class="bor">&lt; article &gt;</span>: Được dùng cho nội dung
+            độc lập (ví dụ: bài viết, tin tức).
+          </li>
+          <li>
+            <span class="bor">&lt; aside &gt;</span>: Nội dung liên quan hoặc bổ
+            sung (ví dụ: thanh sidebar).
+          </li>
+          <li>
+            <span class="bor">&lt; footer &gt;</span>: Chứa thông tin kết thúc
+            như bản quyền hoặc liên kết.
+          </li>
+          <li>
+            <span class="bor">&lt; base &gt;</span>: Chỉ định URL/mục tiêu cơ sở cho tất cả các URL tương đối trong tài liệu.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h3>2. Định dạng văn bản</h3>
+        <ul class="list">
+          <li>
+            <span class="bor">&lt; h1 &gt;</span> đến
+            <span class="bor">&lt; h6 &gt;</span> tiêu đề, cấp từ lớn nhất (&lt;
+            h1 &gt;) đến nhỏ nhất (&lt; h6 &gt;).
+          </li>
+          <li>
+            <span class="bor">&lt; p &gt;</span> Phần tử khối dùng để tạo đoạn
+            văn bản.
+          </li>
+          <li>
+            <span class="bor">&lt; span &gt;</span> Phần tử nội tuyến để nhóm
+            nhỏ nội dung mà không ảnh hưởng bố cục.
+          </li>
+          <li>
+            <span class="bor">&lt; b &gt;</span> và
+            <span class="bor">&lt; strong &gt;</span> Làm văn bản in đậm, nhưng
+            &lt; strong &gt; có ý nghĩa nhấn mạnh hơn.
+          </li>
+          <li>
+            <span class="bor">&lt; i &gt;</span> và
+            <span class="bor">&lt; em &gt;</span> Làm văn bản nghiêng,&lt; em
+            &gt; có ý nghĩa nhấn mạnh hơn.
+          </li>
+          <li>
+            <span class="bor">&lt; mark &gt;</span> Highlight văn bản có nền màu
+            Vàng (thường để thu hút sự chú ý).
+          </li>
+          <li>
+            <span class="bor">&lt; abbr &gt;</span> Viết tắt (có thể chứa chú
+            thích giải thích khi rê chuột qua).
+          </li>
+          <li>
+            <span class="bor">&lt; cite &gt;</span> Dùng để trích dẫn tài liệu
+            hoặc nguồn gốc.
+          </li>
+          <li>
+            <span class="bor">&lt; code &gt;</span> Hiển thị đoạn mã lập trình
+            với định dạng riêng.
+          </li>
+          <li>
+            <span class="bor">&lt; sub &gt;</span> và
+            <span class="bor">&lt; sup &gt;</span> Tạo chỉ số dưới và chỉ số
+            trên cho văn bản.
+          </li>
+          <li>          
+            <span class="bor">&lt; blockquote &gt;</span> Xác định một phần được trích dẫn từ một nguồn khác.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h3>3. Media và tương tác</h3>
+        <ul class="list">
+          <li>
+            <span class="bor">&lt; img &gt;</span> Hiển thị hình ảnh trên trang
+            web (qua thuộc tính "src")
+          </li>
+          <li>
+            <span class="bor">&lt; video &gt;</span> hoặc
+            <span class="bor">&lt; audio &gt;</span> Nhúng video hoặc âm thanh.
+          </li>
+          <li>
+            <span class="bor">&lt; canvas &gt;</span> Dùng để vẽ đồ họa 2D/3D
+            bằng JavaScript.
+          </li>
+          <li>
+            <span class="bor">&lt; svg &gt;</span> Tạo và hiển thị đồ họa
+            vector.
+          </li>
+          <li>
+            <span class="bor">&lt; map &gt;</span> Xác định vùng tương tác trên
+            hình ảnh.
+          </li>
+          <li>
+            <span class="bor">&lt; a &gt;</span> Xác định một siêu liên kết.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h3>4. Biểu mẫu và nhập liệu</h3>
+        <ul class="list">
+          <li>
+            <span class="bor">&lt; form &gt;</span> Tạo biểu mẫu để thu thập dữ
+            liệu.
+          </li>
+          <li>
+            <span class="bor">&lt; input &gt;</span> Nhập thông tin (dạng văn
+            bản, số, checkbox, radio,...).
+          </li>
+          <li>
+            <span class="bor">&lt; textarea &gt;</span> Tạo khung nhập liệu với
+            nhiều dòng.
+          </li>
+          <li>
+            <span class="bor">&lt; select &gt;</span> Menu thả xuống với
+            <span class="bor">option</span> để chọn.
+          </li>
+          <li>
+            <span class="bor">&lt; button &gt;</span> Tạo nút bấm (có thể tùy
+            chỉnh giao diện).
+          </li>
+          <li>
+            <span class="bor">&lt; label &gt;</span> Kết nối nhãn với các phần
+            tử nhập liệu "input"
+          </li>
+          <li>
+            <span class="bor">&lt; fieldset &gt;</span> và
+            <span class="bor">&lt; legend &gt;</span>
+            Nhóm các phần tử biểu mẫu với nhãn riêng.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h3>5. Bảng</h3>
+        <ul class="list">
+          <li>
+            <span class="bor">&lt; table &gt;</span> Tạo bảng dữ liệu.
+          </li>
+          <li>
+            <span class="bor">&lt; thead &gt;</span> Nhóm tiêu đề của bảng.
+          </li>
+          <li>
+            <span class="bor">&lt; tbody &gt;</span> Chứa dữ liệu chính của bảng.
+          </li>
+          <li>
+            <span class="bor">&lt; tfoot &gt;</span> Chứa các dòng cuối (ví dụ: tổng kết).
+          </li>
+          <li>
+            <span class="bor">&lt; tr &gt;</span> Dòng trong bảng.
+          </li>
+          <li>
+            <span class="bor">&lt; th &gt;</span> Ô tiêu đề, thường in đậm.
+          </li>
+          <li>
+            <span class="bor">&lt; td &gt;</span> Tạo ô dữ liệu trong bảng.
+          </li>
+          <li>
+            <span class="bor">&lt; caption &gt;</span> Thêm tiêu đề cho bảng.
+          </li>
+          <li>
+            <span class="bor">&lt; colgroup &gt;</span> Chỉ định một nhóm của một hoặc nhiều cột trong bảng để định dạng.
+          </li>
+          <li>
+            <span class="bor">&lt; col &gt;</span> Chỉ định các thuộc tính cột cho mỗi cột trong phần tử <colgroup>.
+          </li>
+      </section>
+      <section>
+        <h3>6. Các phần tử đặc biệt</h3>
+        <ul class="list">
+          <li>
+            <span class="bor">&lt; div &gt;</span> Phần tử khối đa năng dùng để nhóm và định dạng nội dung.
+          </li>
+          <li>
+            <span class="bor">&lt; style &gt;</span> và <span class="bor">&lt; link &gt;</span> Kết nối CSS để định dạng giao diện.
+          </li>
+          <li>
+            <span class="bor">&lt; script &gt;</span> Chứa hoặc liên kết mã JavaScript để thêm tính năng động.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h3>7. Các phần tử phụ</h3>
+        <ul class="list">
+          <li>
+            <span class="bor">&lt; !--...-- &gt;</span> Cung cấp thông tin về tài liệu (như charset, từ khóa, mô tả).
+          </li>
+          <li>
+            <span class="bor">&lt; address &gt;</span> Xác định thông tin liên hệ cho tác giả/chủ sở hữu của tài liệu.
+          </li>
+          <li>
+            <span class="bor">&lt; bdi &gt;</span> Cách ly một phần của văn bản có thể được định dạng theo một hướng khác với văn bản khác bên ngoài nó.
+          </li>
+          <li>
+            <span class="bor">&lt; br &gt;</span> Xác định một lần ngắt dòng duy nhất.
+          </li>
+          
+        </ul>
+      </section>
+    </main>
   </body>
 </html>

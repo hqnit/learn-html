@@ -1,0 +1,47 @@
+body {
+  margin: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header ====================================== */
+.header {
+  text-align: center;
+}
+
+.header > h1 {
+  color: green;
+}
+
+/* main =========================================== */
+.main > h2 {
+  margin-top: 2rem;
+}
+
+.main h3 {
+  color: blue;
+  margin-bottom: 0.5rem;
+}
+
+.bor {
+  background-color: green;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.main > section {
+  margin-bottom: 1rem;
+}
+
+.list {
+  margin-left: 1.5rem;
+}
+
+.list > li {
+  margin-bottom: 10px;
+}
